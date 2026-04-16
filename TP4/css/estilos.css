@@ -3,75 +3,37 @@
   padding: 0px 0px 0px 0px;
   }
 body {
-  background-color: rgb(227, 227, 227);
-}
-.logo {
-  background: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 200%;
-  padding: 10px 30px;
-  max-width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
-}
-
-/* estilo de la barra de navegación*/
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f8f9fa;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 1px solid  #dee2e6;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
-}
-
-li {
-  float: left;
-  
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .active {
   border-bottom: 3px solid  black;
 }
 
+/* estilo para las imagenes del slider */
+img {
+  height: 550px;
+  width: 100%;
+}
+
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100dvh;
+  min-height: 100dvh;  
 }
 
 .col-4 {
+  background-color: rgb(255, 255, 255);
   text-align: justify;
 }
 
 .col-12 {
+  background-color: rgb(255, 255, 255);
   text-align: justify;
 }
 
-figcaption {
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
+.row {
+  padding: 0px 10px 0px 10px;
 }
 
 .contenido-footer {
@@ -81,10 +43,6 @@ figcaption {
   padding: 1rem 2rem;
   max-width: 100%;
 }
-/* estilo para las imagenes del slider */
 
-img {
-  height: 550px;
-  width: 100%;
-}
+
 
