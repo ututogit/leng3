@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Este es el primer ejercicio práctico de la cátedra Lenguajes III: crear un sitio web en html, con menú, body y footer">
+  <meta name="keywords" content="HTML, CSS, Bootstrap">
+  <meta name="author" content="Rodrigo Moya">
+
+  <!-- configuracion de viewport - permite ver el sitio bien en cualquier dispositivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CDN para fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- CDN para bootstrap desde Google libreries - se usa cuando se hace un sitio publico -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <!-- importo estilos locales -->
+  <link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+  <title>Lenguajes III - Home</title>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Trabajo Práctico Nro. 1</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <main>
+      <br>
+      <div class="main.container">
+        <div class="row">
+
+          <div class="col-4">
+            <article>
+              <br/>
+              <h1>Un artículo</h1><br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dictum ipsum. Sed feugiat, nulla
+                et viverra eleifend, metus mi suscipit quam, a vulputate turpis lacus non diam. Nam lobortis suscipit
+                elit, quis faucibus justo malesuada ut. Suspendisse massa ante, elementum sit amet semper eget,
+                vestibulum ac sem. Nullam vel felis a sapien fringilla pharetra. Fusce tempus tortor sit amet varius
+                viverra. In ultrices feugiat metus ac suscipit. Nullam purus augue, pretium vel ligula nec, porttitor
+                lacinia magna. Vivamus euismod mi quis ligula dictum, ut molestie augue elementum.</p>
+            </article>
+          </div>
+
+          <div class="col-4">
+            <article>
+              <br/>
+              <h1>Otro artículo</h1><br/>
+              <p>Nunc et blandit lectus. Maecenas tellus est, luctus quis imperdiet consectetur, interdum quis arcu.
+                Maecenas pellentesque ante eu vehicula accumsan. Maecenas gravida, odio id egestas posuere, est odio
+                consequat turpis, ut mattis sapien quam ut dolor. Praesent vel ipsum a sem posuere tempus ut id est.
+                Duis egestas vitae leo et euismod. Aliquam sit amet gravida nisi. Integer varius erat nec odio auctor
+                tempor. Etiam ante ante, consequat vitae rhoncus ut, aliquet sed mi. Proin molestie ex mauris, eu
+                imperdiet enim commodo quis. Ut porttitor, magna a commodo viverra, neque augue maximus nisl, id
+                suscipit lacus neque non diam.</p>
+            </article>
+          </div>
+
+          <div class="col-4">
+            <article>
+              <br/>
+              <h1>Un nuevo artículo</h1><br/>
+              <p>Maecenas iaculis lacus ac ex imperdiet tempor. Vestibulum sed metus eget ante ullamcorper sodales.
+                Nullam ultrices, elit at eleifend dignissim, arcu odio tempor tellus, vel varius mauris dolor sed lorem.
+                Ut in libero quam. Donec eget risus velit. Duis id lacinia erat. Donec sapien nulla, ullamcorper at
+                sagittis ac, dictum sit amet nunc. Sed et rutrum est, a volutpat tellus. Fusce porttitor sodales
+                blandit. Aliquam erat volutpat. Etiam arcu dui, tempus ac tincidunt nec, pellentesque sit amet neque.
+                Mauris blandit venenatis enim, sed condimentum tellus sodales nec. Pellentesque accumsan lobortis
+                lacinia. Aliquam erat volutpat. Suspendisse neque lectus, feugiat sit amet faucibus et, congue nec
+                magna. Nam id orci malesuada, gravida felis at, eleifend purus.</p>
+            </article>
+          </div>
+
+          <div class="col-12">
+            <article>
+              <br/>
+              <h1>El artículo</h1><br/>
+              <p>Sed sit amet aliquet orci. Sed aliquam tellus eleifend ultrices laoreet. Aliquam sed urna lacus. Mauris
+                dui lectus, consequat vehicula eleifend eu, tempus non tellus. Morbi ac commodo urna, eget ultrices
+                purus. Praesent mi lorem, vehicula vitae dignissim in, placerat ac quam. Fusce placerat, nulla vitae
+                euismod pulvinar, nulla ipsum aliquam arcu, ac pretium erat sapien sed enim. Nunc volutpat turpis sed
+                volutpat congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Proin cursus est quis ante ullamcorper, et sollicitudin nulla pretium. Ut rhoncus, libero ac porta
+                feugiat, arcu nibh suscipit velit, at scelerisque nunc magna ornare nunc. Mauris aliquam tempor mauris
+                sit amet scelerisque. Mauris ut arcu porttitor, malesuada enim in, tristique ligula. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent mollis nibh ut rutrum
+                tincidunt. Aenean consectetur egestas egestas.</p>
+                <br>
+                <br>
+            </article>
+          </div>
+        </div>
+        
+      </div>
+
+    </main>
+
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4"></div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <p>2026 🄯 Rodrigo Moya</p>
+    <a class="btn btn-light" href="https://github.com" target="_blank" role="button"><i
+      class="fa-brands fa-github"></i>
+    Github</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  </div>
+
+</body>
+
+</html>
