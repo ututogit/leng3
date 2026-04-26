@@ -1,0 +1,34 @@
+/* Estilo de fondo de la página */
+body {
+    background: #eef2f7;
+    min-height: 100vh;
+}
+
+/* Ajustes de la tarjeta del formulario para centrarla y darle borde */
+.form-card {
+    max-width: 520px;
+    margin: 4rem auto;
+    border: 1px solid #dee2e6;
+}
+
+/* Título del formulario más marcado */
+.form-title {
+    font-weight: 700;
+}
+
+/* Forzar que el texto de error se muestre siempre cuando exista */
+.invalid-feedback {
+    display: block;
+}
+
+/* Colores personalizados para el botón principal */
+.btn-primary {
+    background-color: #2553a1;
+    border-color: #1f4b8a;
+}
+
+/* Hover del botón para mejor contraste visual */
+.btn-primary:hover {
+    background-color: #1f4177;
+    border-color: #1a3d6b;
+}
