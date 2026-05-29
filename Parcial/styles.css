@@ -1,0 +1,59 @@
+  #respuestas {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #000000;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00ff00;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.error{
+    color: #FF0000;
+    font-size: 14px;
+}
+
+.exito{
+    color: #00ff00;
+    font-weight: bold;
+}
